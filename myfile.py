@@ -1,11 +1,11 @@
-import pickle_1
+import pickle
 import streamlit as st #pip install streamlit 
 from streamlit_option_menu import option_menu #option menu streamlit extras
 from streamlit_extras.add_vertical_space import add_vertical_space #adding space vertically
 from sklearn.metrics import (confusion_matrix,accuracy_score,precision_score,recall_score,f1_score)
 from sklearn.ensemble import RandomForestClassifier #random forest algorithm
 from sklearn.model_selection import train_test_split #split data train and data test
-from datetime_1 import datetime
+from datetime import datetime
 import plotly.express as px
 import pandas as pd #pip install pandas openpyxL
 
